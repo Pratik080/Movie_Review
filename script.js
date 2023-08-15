@@ -90,8 +90,7 @@ const tagsEl = document.getElementById("tags");
 const prev = document.getElementById("prev");
 const next = document.getElementById("next");
 const current = document.getElementById("current");
-const genreSearchBtn = document.getElementById("genre-search-btn");
-const genreInput = document.getElementById("genre-input");
+
 
 var currentPage = 1;
 var nextPage = 2;
@@ -351,8 +350,6 @@ form.addEventListener("submit", (e) => {
   e.preventDefault();
 
   const searchTerm = search.value;
-  selectedGenre = [];
-  setGenre();
   if (searchTerm) {
     getMovies(searchURL + "&query=" + searchTerm);
   } else {
