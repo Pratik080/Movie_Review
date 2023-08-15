@@ -76,41 +76,6 @@ form {
   margin: 0 10px;
 }
 
-.genre-search {
-  display: flex;
-  align-items: center;
-  margin-right: 10px;
-}
-
-.genre-search input[type="text"] {
-  height: 100%;
-  padding: 0.5rem;
-  border-radius: 50px;
-  border: 2px solid var(--primary-color);
-  font-family: inherit;
-  font-size: 15px;
-  color: #fff;
-  background-color: transparent;
-  outline: none;
-}
-
-.genre-search button {
-  height: 100%;
-  padding: 0.5rem 1rem;
-  border-radius: 50px;
-  border: none;
-  font-family: inherit;
-  font-size: 15px;
-  color: #fff;
-  background-color: var(--primary-color);
-  margin-left: 10px;
-  cursor: pointer;
-}
-
-genre-search input:focus {
-  background-color: #030a46;
-}
-
 fas fa{
   color: white;
   /* font-size: 18px;
